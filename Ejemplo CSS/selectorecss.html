@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Tipos de selectores</title>
+        <style>
+            /*selector por elemento*/
+            h1{
+                color: blue;
+            }
+            /*selector por clase*/
+            .encabezado{
+                color: red;
+                font-size: 35px;
+                font-family: ´courier 'Courier New', Courier, monospace;
+            }
+            /*selector por id*/
+            #titulo{
+                color: aqua;
+                background-color: beige;
+            }
+            div p{
+                color:green;
+                font-size: 30px;
+            }
+            div p span{
+                color:fuchsia;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hola mundo</h1>
+        <h1>Hola mundo</h1>
+        <h1 class="encabezado">Hola mundo</h1>
+        <h1 id="titulo">Hola mundo</h1>
+        <p>no cumple</p>
+        <div>
+            <p>si cumple<span>texto</span></p>
+        </div>
+    </body>
+</html>
